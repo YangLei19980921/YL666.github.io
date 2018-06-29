@@ -1,0 +1,84 @@
+/* ================================= 
+全局设置
+==================================== */
+* {
+    box-sizing: border-box; /*让内边距无法改变盒模型的长宽*/
+    list-style: none;    /*去除ul的小圆点*/
+    text-decoration: none; /*去除超链接的下划线
+    */
+}
+/* ================================= 
+移动优先CSS规则
+==================================== */
+.main-header {
+    text-align: center;
+    background-color: orange;
+}
+.logo {
+    margin: 0;  /*重置logo的外边距*/
+}
+
+.navlist li a {
+    padding: 2em ;   /*改变导航条超链接的上下内边距*/
+}
+
+/*当鼠标移动到导航项目时，改变背景颜色*/
+.navlist li a:hover {
+    background-color:blue;
+    transition: .3s;
+    text-shadow: 1px 1px 1px black;
+}
+
+a {
+    /*将所有超链接变成块级元素block(超链接默认的显示方式是线级元素inline)*/
+    display:block;
+    color: black;
+    text-decoration:none;
+}
+
+.banner {
+   /* background: url("../images\gnr.jpg");*/
+    background: url("../images/hongyan.gif");
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+    padding: 1em 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-shadow:5px 5px 5px black;
+}
+
+
+h3{
+    font-size: 3rem;
+    color:darkgoldenrod;
+}
+h2{
+    font-size: 3rem;
+    color: indianred;
+}
+
+h1 {
+    color:aqua
+}
+h4{
+    font-size: 4rem;
+    color:firebrick
+}
+p{
+    margin:5em;
+    padding: 3em;
+}
+.col h1{
+    text-align: center;
+    }
+.html{
+    background: url("../images/shizhounian.jpg");
+}
+/* ================================= 
+媒体查询:700px宽
+==================================== */
+  
